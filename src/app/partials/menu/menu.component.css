@@ -1,0 +1,18 @@
+.menu li
+{
+	display: block;
+}
+
+.menu li a
+{
+	color: #ddd;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 6px 10px;
+	border-radius: 2px;
+}
+
+.menu li a:hover
+{
+	color: #fff;
+}
