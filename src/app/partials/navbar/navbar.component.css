@@ -1,9 +1,12 @@
 .navbar-wrapper
 {
 	background: black;
-	padding: 5px 100px;
+	padding: 5px 0px;
+  padding-left: 15%;
 	float: left;
-	width: 100%;
+	width: 85%;
+  font-family: 'Roboto-Consdensed', sans-serif;
+
 }
 
 .navbar-logo-wrapper
@@ -17,4 +20,11 @@
 	width: 50%;
 	float: left;
 	margin: 15px 0px;
+}
+
+.navbar-profile-avatar-wrapper
+{
+  float: left;
+  width: 20%;
+  margin-top: 10px; 
 }

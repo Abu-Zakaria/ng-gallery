@@ -8,6 +8,8 @@ import { HomeComponent } from './web/home/home.component';
 import { NavbarComponent } from './partials/navbar/navbar.component';
 import { LogoComponent } from './partials/logo/logo.component';
 import { MenuComponent } from './partials/menu/menu.component';
+import { AvatarComponent } from './partials/profile/avatar/avatar.component';
+import { DropdownMenuComponent } from './partials/profile/dropdown-menu/dropdown-menu.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { MenuComponent } from './partials/menu/menu.component';
     HomeComponent,
     NavbarComponent,
     LogoComponent,
-    MenuComponent
+    MenuComponent,
+    AvatarComponent,
+    DropdownMenuComponent
   ],
   imports: [
     BrowserModule,
