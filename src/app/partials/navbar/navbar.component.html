@@ -8,8 +8,10 @@
     </div>
     <div class="navbar-right-col">
       <div class="navbar-profile-avatar-wrapper">
-        <app-avatar></app-avatar>
-        <div class="navbar-drop-down-menu-wrapper">
+        <app-avatar (click)="showDropdown = !showDropdown" class="navbar-avatar-wrapper">
+        
+        </app-avatar>
+        <div class="navbar-drop-down-menu-wrapper" *ngIf="showDropdown">
           <app-dropdown-menu></app-dropdown-menu>
         </div>
       </div>
