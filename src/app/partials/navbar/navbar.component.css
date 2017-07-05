@@ -6,7 +6,8 @@
 	float: left;
 	width: 85%;
   font-family: 'Roboto-Consdensed', sans-serif;
-
+  position: fixed;
+  top: 0px;
 }
 
 .navbar-logo-wrapper

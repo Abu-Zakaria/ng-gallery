@@ -10,6 +10,7 @@ import { LogoComponent } from './partials/logo/logo.component';
 import { MenuComponent } from './partials/menu/menu.component';
 import { AvatarComponent } from './partials/profile/avatar/avatar.component';
 import { DropdownMenuComponent } from './partials/profile/dropdown-menu/dropdown-menu.component';
+import { BodyComponent } from './partials/body/body.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DropdownMenuComponent } from './partials/profile/dropdown-menu/dropdown
     LogoComponent,
     MenuComponent,
     AvatarComponent,
-    DropdownMenuComponent
+    DropdownMenuComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
@@ -30,3 +32,5 @@ import { DropdownMenuComponent } from './partials/profile/dropdown-menu/dropdown
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
