@@ -7,3 +7,8 @@
 
 }
 
+.body-photos app-photo 
+{
+  float: left;
+}
+

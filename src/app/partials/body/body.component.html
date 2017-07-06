@@ -1,6 +1,14 @@
 
 <div class="body-wrapper">
   <app-new-photo></app-new-photo>
+
+  <div class="body-photos">
+    <div *ngFor="let photo of photos">
+      <app-photo [photoname]="photo"></app-photo>
+    </div>
+   
+  </div>
+  
 </div>
 
 

@@ -12,6 +12,7 @@ import { AvatarComponent } from './partials/profile/avatar/avatar.component';
 import { DropdownMenuComponent } from './partials/profile/dropdown-menu/dropdown-menu.component';
 import { BodyComponent } from './partials/body/body.component';
 import { NewPhotoComponent } from './partials/buttons/new-photo/new-photo.component';
+import { PhotoComponent } from './partials/photos/photo/photo.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NewPhotoComponent } from './partials/buttons/new-photo/new-photo.compon
     AvatarComponent,
     DropdownMenuComponent,
     BodyComponent,
-    NewPhotoComponent
+    NewPhotoComponent,
+    PhotoComponent
   ],
   imports: [
     BrowserModule,

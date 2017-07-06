@@ -6,8 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
+  public photos: String[]  = ['first', 'second', 'third', 'forth', 'second', 'forth']
 
-  constructor() { }
+  constructor()
+  {
+
+  }
 
   ngOnInit() {
   }
