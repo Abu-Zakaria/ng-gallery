@@ -11,6 +11,11 @@ import { MenuComponent } from './partials/menu/menu.component';
 import { AvatarComponent } from './partials/profile/avatar/avatar.component';
 import { DropdownMenuComponent } from './partials/profile/dropdown-menu/dropdown-menu.component';
 import { BodyComponent } from './partials/body/body.component';
+import { NewPhotoComponent } from './partials/buttons/new-photo/new-photo.component';
+import { PhotoComponent } from './partials/photos/photo/photo.component';
+
+// directives
+import { PhotoShadow } from './directives/photo-shadow.directive'
 
 @NgModule({
   declarations: [
@@ -21,7 +26,10 @@ import { BodyComponent } from './partials/body/body.component';
     MenuComponent,
     AvatarComponent,
     DropdownMenuComponent,
-    BodyComponent
+    BodyComponent,
+    NewPhotoComponent,
+    PhotoComponent,
+    PhotoShadow
   ],
   imports: [
     BrowserModule,

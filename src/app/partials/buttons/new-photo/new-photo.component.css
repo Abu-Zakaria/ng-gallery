@@ -1,0 +1,25 @@
+.add-new-button
+{
+  background: linear-gradient(#49d11d, #3eb717); 
+  border: 0px solid red;
+  border-radius: 3px;
+  padding: 7px 7px;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+.add-new-button:hover 
+{
+  background: linear-gradient(#43bc1e, #3ba51a);
+
+}
+
+.add-new-button:focus 
+{
+  box-shadow: 0px 0px 4px 0px skyblue;
+
+}
+
