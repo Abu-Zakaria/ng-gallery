@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 
 })
 export class PhotoComponent implements OnInit {
-  
+  public photoname;
+
   constructor() { }
 
   ngOnInit() {
