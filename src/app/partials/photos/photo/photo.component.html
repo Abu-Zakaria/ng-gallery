@@ -1,10 +1,22 @@
 <div class="photo-wrapper">
   <img [src]="'assets/photos/' + photoname + '.jpg'" alt="first image" width="100%" />
-  <span class="overlay" photo-shadow></span>
-  <span class="actions">
-    <span>Like</span>
-    <span>Share</span>
-    <span>More</span>
+  <span class="overlay" photo-shadow>
+  
+    
+    <span class="actions" style="opacity: 1">
+      <span>
+        <img src="assets/like.png" alt="Like" width="20px" style="margin-top: 5px"/>
+      </span>
+    
+      <span>
+        <img src="assets/retweet.png" alt="Retweet" width="30px"/>
+      </span>
+
+      <span>
+        <img src="assets/more.png" alt="More" width="30px"/>
+      </span>
+    </span>
+
   </span>
 
 </div>

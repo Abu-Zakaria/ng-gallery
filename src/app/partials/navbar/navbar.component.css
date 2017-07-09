@@ -8,6 +8,7 @@
   font-family: 'Roboto-Consdensed', sans-serif;
   position: fixed;
   top: 0px;
+  z-index: 100;
 }
 
 .navbar-logo-wrapper
@@ -38,7 +39,7 @@
   position: absolute;
   top: 40px;
   left: -55px;
-  
+  z-index: 200;
 
 }
 
