@@ -14,6 +14,9 @@ import { BodyComponent } from './partials/body/body.component';
 import { NewPhotoComponent } from './partials/buttons/new-photo/new-photo.component';
 import { PhotoComponent } from './partials/photos/photo/photo.component';
 
+// directives
+import { PhotoShadow } from './directives/photo-shadow.directive'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +28,8 @@ import { PhotoComponent } from './partials/photos/photo/photo.component';
     DropdownMenuComponent,
     BodyComponent,
     NewPhotoComponent,
-    PhotoComponent
+    PhotoComponent,
+    PhotoShadow
   ],
   imports: [
     BrowserModule,
